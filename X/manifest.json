@@ -1,0 +1,69 @@
+{
+	"manifest_version": 3,
+	"name": "X",
+    "description": "Theme based on X.",
+	"version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+	"developer":
+	{
+		"name": "#27"
+	},
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 45,
+                        "s": 55,
+                        "l": 46
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 220,
+                        "s": 52,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 231,
+                        "s": 73,
+                        "l": 20
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 68,
+                        "s": 59,
+                        "l": 88
+                    }
+                }
+                    },
+                      "wallpaper":
+                    {
+                        "dark":
+                        {   
+                            "image": "wallpaper/revoxdark.png",
+                            "text_color": "#FFFFFF",
+                            "text_shadow": "#757575"
+                        },
+                        "light":
+                        {
+                            "image": "wallpaper/revoxlight.png",
+                            "text_color": "#FFFFFF",
+                            "text_shadow": "#0B000E"
+                        }
+                    }   
+                }
+            }
+        }
